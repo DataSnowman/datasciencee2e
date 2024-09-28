@@ -1,9 +1,9 @@
 # datasciencee2e
-Easy to get Jupyter Notebooks for Fabric Data Science
+Easy to get Jupyter Notebooks for the Microsoft Fabric Data Science end-to-end workshop
 
 ## Workshop for learning Fabric Data Science
 
-Welcome to the Microsoft Fabric Data Science end-to-end workshop.  The purpose of the workshop is to bring you up to speed on some of the Data Science tools and other experiences in Microsoft Fabric including Lakehouse, Spark Notebooks, MLFlow, and Semantic Models and Power BI reports.
+Welcome to the Microsoft Fabric Data Science end-to-end workshop. The purpose of the workshop is to bring you up to speed on some of the Data Science tools and other experiences in Microsoft Fabric including Lakehouse, Spark Notebooks, MLFlow, and Semantic Models and Power BI reports.
 
 ### Datasets
 
@@ -64,41 +64,41 @@ https://fabric.microsoft.com/
  
 Enter the userid (Email) assigned for you to use during the workshop and click `Submit`
 
-![login1](https://raw.githubusercontent.com/datasnowman/shapedata/main/images/login1.png)
+![login1](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/login1.png)
 
 Enter the password provided by the instructor and click `Sign in`
 
-![login2](https://raw.githubusercontent.com/datasnowman/shapedata/main/images/login2.png)
+![login2](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/login2.png)
 
 This should land you on a home page that looks like this:
 
-![landing](https://raw.githubusercontent.com/datasnowman/shapedata/main/images/landing.png)
+![landing](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/landing.png)
 
 ## Create a new Lakehouse in your Fabric workspace
 
-To get started you can click on any of the experiences on the home page or on the Microsoft Fabric icon in the bottow left corner of the browser.  For example click on `Data Factory` or `Data Engineering`
+To get started click on the Microsoft Fabric icon in the bottow left corner of the browser.  Click on `Data Science`
 
-![datafactory](https://raw.githubusercontent.com/datasnowman/shapedata/main/images/datafactory.png)
+![datascience](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/datascience.png)
 
-Now click on Workspaces to find your Fabric workspace.  Please click on the workspace that is the same as the userid (email i.e. user1 or user2, etc) you logged on as.
+Now click on Workspaces to find your Fabric workspace.  You should have a workspace precreated for you.
 
-![workspace](https://raw.githubusercontent.com/datasnowman/shapedata/main/images/workspace.png)
+![workspace](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/workspace.png)
 
 When you open the workspace it should be empty and look something like this:
 
-![user1ws](https://raw.githubusercontent.com/datasnowman/shapedata/main/images/user1ws.png)
+![user1ws](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/user1ws.png)
 
 Create a new Lakehouse by clicking `+New` and selecting `Lakehouse`
 
-![lh1](https://raw.githubusercontent.com/datasnowman/shapedata/main/images/lh1.png)
+![lh1](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/lh1.png)
 
-Name the Lakehouse something like `MRT` since this lakehouse will used to collect and analyze public Taipei Mass Rapid Transit (MRT) data.  Click `Create`
+Name the Lakehouse something like `ChurnanAlysis` since this lakehouse will used to collect .  Click `Create`
 
-![newlh](https://raw.githubusercontent.com/datasnowman/shapedata/main/images/newlh.png)
+![newlh](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/newlh.png)
 
 The empty lakehouse should look like this with empty Tables and Files folders
 
-![mrttablesfiles](https://raw.githubusercontent.com/datasnowman/shapedata/main/images/mrttablesfiles.png)
+![lhtablesfiles](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/lhtablesfiles.png)
 
 
 ## [Tutorial Part 1: Ingest data into a Microsoft Fabric lakehouse using Apache Spark](https://learn.microsoft.com/en-us/fabric/data-science/tutorial-data-science-ingest-data)
