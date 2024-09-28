@@ -148,6 +148,8 @@ To demonstrate Fabric lakehouse features, many of the tutorials require attachin
 
 ![lhadded](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/lhadded.png)
 
+## Work through parts 1 - 5
+
 ## [Tutorial Part 1: Ingest data into a Microsoft Fabric lakehouse using Apache Spark](https://learn.microsoft.com/en-us/fabric/data-science/tutorial-data-science-ingest-data)
 
 ## [Tutorial Part 2: Explore and visualize data using Microsoft Fabric notebooks](https://learn.microsoft.com/en-us/fabric/data-science/tutorial-data-science-explore-notebook)
