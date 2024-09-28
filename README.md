@@ -111,7 +111,7 @@ git clone https://github.com/DataSnowman/datasciencee2e.git
 
 `Note` you can also download these repo files by clicking on the green `Code` button and selecting `Download ZIP`
  
-2. On the Data science experience homepage, select **Import notebook** and upload the notebook files that you downloaded in Prereqs or step 1.
+2. On the Data science experience homepage, select **Import notebook** and upload the notebook files that you downloaded in Prereqs or step 1.  Notebooks should be located in where you cloned the repo in `datasciencee2e/code/notebooks`
 
 ![importnotebooks](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/importnotebooks.png)
 
