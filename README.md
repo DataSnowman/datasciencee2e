@@ -33,6 +33,18 @@ Example rows from the dataset:
 
 The Dataset will be imported when you run the first Notebook `1-ingest-data.ipynb`
 
+### Prereqs
+
+Prior to starting the hands-on activites you please clone this GitHub repo to your local machine by cutting and pasting and running this command.
+
+```    
+git clone https://github.com/DataSnowman/datasciencee2e.git
+```
+
+`Note` you can also download these repo files by clicking on the green `Code` button and selecting `Download ZIP`
+
+![gitclone](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/gitclone.png)
+
 ### Workshop
 
 The Workshop is broken up into five parts:
@@ -52,7 +64,6 @@ git clone https://github.com/DataSnowman/datasciencee2e.git
 `Note` you can also download these repo files by clicking on the green `Code` button and selecting `Download ZIP`
 
 ![gitclone](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/gitclone.png)
-
 
 ## Login
 
@@ -100,6 +111,54 @@ The empty lakehouse should look like this with empty Tables and Files folders
 
 ![lhtablesfiles](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/lhtablesfiles.png)
 
+## Import tutorial notebooks
+
+We utilize the notebook item in the Data Science experience to demonstrate various Fabric capabilities. The notebooks are available as Jupyter notebook files that can be imported to your Fabric-enabled workspace.
+
+1. Download your notebook(s).  Make sure to download the files by cloning the GitHub Repo 
+
+```    
+git clone https://github.com/DataSnowman/datasciencee2e.git
+```
+
+`Note` you can also download these repo files by clicking on the green `Code` button and selecting `Download ZIP`
+ 
+2. On the Data science experience homepage, select **Import notebook** and upload the notebook files that you downloaded in Prereqs or step 1.
+
+![importnotebooks](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/importnotebooks.png)
+
+![uploadnotebooks](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/uploadnotebooks.png)
+
+3. Once the notebooks are imported, select **Go to workspace** in the import dialog box.
+
+4. The imported notebooks are now available in your workspace for use.
+
+![allnotebooks](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/allnotebooks.png)
+
+5. If the imported notebook includes output, select the **Edit** menu, then select **Clear all outputs**.
+
+![clearalloutputs](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/clearalloutputs.png)
+
+## Attach a lakehouse to the notebooks
+
+To demonstrate Fabric lakehouse features, many of the tutorials require attaching a default lakehouse to the notebooks. The following steps show how to add a lakehouse to a notebook in a Fabric-enabled workspace.
+
+> [!NOTE]
+> Before executing each notebooks, you need to perform these steps on that notebook. 
+
+1. Open the notebook in the workspace.
+
+2. Select **Add lakehouse** in the left pane.
+
+![addlh](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/addlh.png)
+
+3. Create a new lakehouse or use an existing lakehouse.
+    1. To create a new lakehouse, select **New**. Give the lakehouse a name and select **Create**.
+    2. To use an existing lakehouse, select **Existing lakehouse** to open the **Data hub** dialog box. Select the lakehouse you want to use and then select **Add**.
+
+4. Once a lakehouse is added, it's visible in the lakehouse pane and you can view tables and files stored in the lakehouse.
+
+![lhadded](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/lhadded.png)
 
 ## [Tutorial Part 1: Ingest data into a Microsoft Fabric lakehouse using Apache Spark](https://learn.microsoft.com/en-us/fabric/data-science/tutorial-data-science-ingest-data)
 
