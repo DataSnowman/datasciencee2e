@@ -1,6 +1,4 @@
 # datasciencee2e
-Easy to get Jupyter Notebooks for the Microsoft Fabric Data Science end-to-end workshop
-
 ## Workshop for learning Fabric Data Science
 
 Welcome to the Microsoft Fabric Data Science end-to-end workshop. The purpose of the workshop is to bring you up to speed on some of the Data Science tools and other experiences in Microsoft Fabric including Lakehouse, Spark Notebooks, MLFlow, and Semantic Models and Power BI reports.
@@ -55,16 +53,6 @@ The Workshop is broken up into five parts:
 * [Tutorial Part 4: Perform batch scoring and save predictions to a lakehouse](https://learn.microsoft.com/en-us/fabric/data-science/tutorial-data-science-batch-scoring)
 * [Tutorial Part 5: Visualize predictions with a Power BI report](https://learn.microsoft.com/en-us/fabric/data-science/tutorial-data-science-create-report)
 
-Prior to starting the hands-on activites you please clone this GitHub repo to your local machine by cutting and pasting and running this command.
-
-```    
-git clone https://github.com/DataSnowman/datasciencee2e.git
-```
-
-`Note` you can also download these repo files by clicking on the green `Code` button and selecting `Download ZIP`
-
-![gitclone](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/gitclone.png)
-
 ## Login
 
 In your browser (Incognito, InPrivate, Private if you are not using your company Fabric Tenant) cut and paste this Link
@@ -115,7 +103,7 @@ The empty lakehouse should look like this with empty Tables and Files folders
 
 We utilize the notebook item in the Data Science experience to demonstrate various Fabric capabilities. The notebooks are available as Jupyter notebook files that can be imported to your Fabric-enabled workspace.
 
-1. Download your notebook(s).  Make sure to download the files by cloning the GitHub Repo 
+1. Download your notebook(s).  If you have not already done so in the Prereqs section make sure to download the files by cloning the GitHub Repo 
 
 ```    
 git clone https://github.com/DataSnowman/datasciencee2e.git
