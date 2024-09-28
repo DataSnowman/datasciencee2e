@@ -123,7 +123,7 @@ git clone https://github.com/DataSnowman/datasciencee2e.git
 
 ![allnotebooks](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/allnotebooks.png)
 
-5. If the imported notebook includes output, select the **Edit** menu, then select **Clear all outputs**.
+5. If the imported notebook includes output, select the **Edit** menu, then select **Clear all output(s)**.
 
 ![clearalloutputs](https://raw.githubusercontent.com/datasnowman/datasciencee2e/main/images/clearalloutputs.png)
 
